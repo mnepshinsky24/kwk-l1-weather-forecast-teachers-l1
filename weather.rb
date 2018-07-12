@@ -27,3 +27,4 @@ end
 
 def convert_temp(weather)
   ((weather[:temperature_farenheit] - 32.0) * (5.0/9.0)).round(2)
+end 
